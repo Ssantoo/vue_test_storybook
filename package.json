@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-storybook": "build-storybook -s public",
+    "build-storybook": "build-storybook -o ./storybook-static",
     "deploy-storybook": "storybook-to-ghpages",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
