@@ -20,7 +20,7 @@ jobs:
     - run: npm ci 
     - run: npm run build-step2 
     
-    - uses: peaceiris/actions-gh-pages@v2
+    - uses: peaceiris/actions-main@v2
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
